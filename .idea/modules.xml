@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/anagramSolverGui/anagramsolvergui.iml" filepath="$PROJECT_DIR$/anagramSolverGui/anagramsolvergui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iceCreamWebsite/iceCreamWebsite.iml" filepath="$PROJECT_DIR$/iceCreamWebsite/iceCreamWebsite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makeupWebsite/makeupWebsite.iml" filepath="$PROJECT_DIR$/makeupWebsite/makeupWebsite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personalProjects.iml" filepath="$PROJECT_DIR$/personalProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pomodoro/pomodoro.iml" filepath="$PROJECT_DIR$/pomodoro/pomodoro.iml" />
+    </modules>
+  </component>
+</project>
