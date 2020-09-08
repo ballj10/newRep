@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#a5bdf1">
     <meta charset="UTF-8">
     <title>Contact Us!</title>
   <link rel="stylesheet" href="css/normalize.css">
@@ -17,27 +24,38 @@
   </nav>
   <main>
     <h2>Our Locations</h2>
-    <div id = "contact">
-      <img id = "map" src = "../img/about1.jpg"/>
-      <div id = "locations">
-        <ul>
-          <li><p class = "location">Capitol Hill - <em class = "number">206-571-4186</em></p>
-          </li>
-          <li>
-            <p class = "location">Wallingford - <em class = "number">206-453-1253</em></p>
-          </li>
-          <li>
-            <p class = "location">Westgate - <em class = "number">206-342-8531</em></p>
-          </li>
-          <li>
-            <p class = "location">Freemont - <em class = "number">206-413-8931</em></p>
-          </li>
-          <li><p class = "location">Tacoma - <em class = "number">253-600-3417</em></p>
-          <li><p class = "location">Renton - <em class = "number"> 253-322-9544</em></p>
-          </li>
-        </ul>
+    <div class="parent">
+      <div class="map"><iframe
+        width="600"
+        height="450"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBUHmusX1V3UDBkTEzCNySHW3-7OE5zAAA&q=Space+Needle,Seattle+WA" allowfullscreen>
+      </iframe></div>
+      <div>
+        <div>
+          <ul>
+            <li><p class = "location">Capitol Hill - <em class = "number">206-571-4186</em></p>
+            </li>
+            <li>
+              <p class = "location">Wallingford - <em class = "number">206-453-1253</em></p>
+            </li>
+            <li>
+              <p class = "location">Westgate - <em class = "number">206-342-8531</em></p>
+            </li>
+            <li>
+              <p class = "location">Freemont - <em class = "number">206-413-8931</em></p>
+            </li>
+            <li><p class = "location">Tacoma - <em class = "number">253-600-3417</em></p>
+            <li><p class = "location">Renton - <em class = "number"> 253-322-9544</em></p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
+    <div id = "contact">
+
+    </div>
+    <hr />
     <div id = "additionalInfo">
       <form>
       <h4>Want to join our mailing list? Sign up here to get information on offers, new flavors and treats and more!</h4>

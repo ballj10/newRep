@@ -12,14 +12,19 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="../img/icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#a5bdf1">
 
+  <link rel="manifest" href="site.webmanifest">
+  <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Galada&family=Roboto&display=swap" rel="stylesheet">
-
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -31,25 +36,39 @@
     <a href = "./index.html"> Home </a><a href = "./about.html"> About Us! </a> <a href = "./menu.html"> Menu </a> <a href="./contact.html"> Contact Us! </a>
   </nav>
   <main>
-    <div id = "intro">
-      <img id = "shop" src = "../img/shop.webp" alt = "Our flagship store in downtown Seattle."/>
-      <h3>Need to Cool Off?</h3>
-      <p class = "firstpage"> Since we started in 1945, Brain Freeze Ice Cold Treats has been providing the Seattle area with
-        tasty summer delights. We have an array of fun flavors for you to try, from the classic to the inventive,
-        as well as bars, cakes and milkshakes. If you want to satisfy your sweet tooth, come on down!
-      </p>
-    </div>
-    <div id = "flavors">
-      <img id = "cones" src = "../img/icecream.jpg"/>
-      <h3> Fan Favorite Flavors </h3>
-      <p class = "firstpage"> We use all natural and organic ingredients to create delicious tasting treats for you and your family. From our
-        seasonal staples to our monthly specials, there'll surely be something to please your taste buds.
-      </p>
+      <div class="row">
+        <div class="col-md-3"><img class = "img-responsive" src = "../img/shop.webp" alt = "Our flagship store in downtown Seattle."/></div>
+        <div class="col-md-9">Since we started in 1945, Brain Freeze Ice Cold Treats has been providing the Seattle area with
+          tasty summer delights. We have an array of fun flavors for you to try, from the classic to the inventive,
+          as well as bars, cakes and milkshakes. If you want to satisfy your sweet tooth, come on down!</div>
+      </div>
+      <div id = "quote">
+        <blockquote class = "blockquote">
+          "Brain Freeze is my favorite local ice cream shop! I love hanging out there during the summers, and there's always a fun
+          new flavor to try!"
+        </blockquote>
+      </div>
+      <!--<div id = "intro">
+        <img id = "shop" src = "../img/shop.webp" alt = "Our flagship store in downtown Seattle."/>
+        <h3>Need to Cool Off?</h3>
+        <p class = "firstpage"> Since we started in 1945, Brain Freeze Ice Cold Treats has been providing the Seattle area with
+          tasty summer delights. We have an array of fun flavors for you to try, from the classic to the inventive,
+          as well as bars, cakes and milkshakes. If you want to satisfy your sweet tooth, come on down!
+        </p>
+      </div>
+      <div id = "flavors">
+        <img id = "cones" src = "../img/icecream.jpg"/>
+        <h3> Fan Favorite Flavors </h3>
+        <p class = "firstpage"> We use all natural and organic ingredients to create delicious tasting treats for you and your family. From our
+          seasonal staples to our monthly specials, there'll surely be something to please your taste buds.
+        </p>
+      </div>
+  -->
     </div>
   </main>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <footer>
+    <p>footer text</p>
+  </footer>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

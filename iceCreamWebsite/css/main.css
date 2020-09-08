@@ -219,6 +219,20 @@ button {
   color: #1f3d7a;
 }
 
+.map {
+  text-align: center;
+}
+
+.parent {
+  align-items: center;
+  width: 99%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 17px;
+  grid-row-gap: 0px;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -247,7 +261,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 10px solid #1f3d7a;
   margin: 1em 0;
   padding: 0;
 }
