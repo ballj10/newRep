@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: ghostwhite;
+  background: #f8efe8;
 }
 
 img {
@@ -72,14 +72,36 @@ h3 {
 }
 
 #cones {
-  float: right;
-  margin: 5px 0px 0px 5px;
+  margin: auto;
   height: 300px;
 }
 
 #flavors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-left: #515e72 solid 10px;
   font-size: 20px;
-  float: left;
+  background-color: white;
+}
+
+#about2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-left: #515e72 solid 10px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.container {
+  align-content: center;
+  margin: auto;
+}
+
+#currentFlavors {
+  color: #1f3d7a;
+  padding: 20px;
 }
 
 #intro {
@@ -110,8 +132,8 @@ a:hover {
   color: #b3d4fc;
 }
 
-#footer {
-  height: 15%;
+footer {
+  height: 4em;
   background: repeating-linear-gradient(
     130deg,
     #1f3d7a 0px,
@@ -119,6 +141,11 @@ a:hover {
     #c2d1ef 40px,
     #c2d1ef 80px
   );
+  color: white;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 1em;
+  font-size: 1rem;
 }
 
 #classic {
@@ -182,6 +209,11 @@ h2 {
 .aboutText {
   margin:auto;
   padding: 10px;
+  size: 4em;
+}
+
+#about1 {
+  padding-bottom: 20px;
 }
 
 #contact {
@@ -208,7 +240,12 @@ h2 {
 }
 
 #additionalInfo {
+  border-left: #515e72 solid 10px;
   padding-left: 20px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 10px;
 }
 
 button {
@@ -231,6 +268,59 @@ button {
   grid-template-rows: 1fr;
   grid-column-gap: 17px;
   grid-row-gap: 0px;
+  padding-bottom: 10px;
+}
+
+.homepage {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+#store {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  border-radius: 100%;
+}
+
+.frontText {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#circles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+.circleholder {
+  display: flex;
+  justify-content: center;
+}
+
+.circleHeadings {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.round {
+  height: 15em;
+  border-radius: 100%;
+}
+
+blockquote {
+  border-left: solid 6px #efefef;
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 1.5em;
 }
 
 /*
